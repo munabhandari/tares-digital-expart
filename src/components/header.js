@@ -1,21 +1,19 @@
-import react from 'react';
-import './header.scss'
+import logo from '../images/logo.png';
+
 import Nav from './nav';
 
 const Header = function () {
     return (
         <header>
             <div className="container">
-
                 <div className="row">
-
-                    <div className="col-md-5">
+                    <div className="col-5 logo-container">
                         <div className="logo text-uppercase">
-                            <h1>tares</h1>
+                            <img src={logo} alt="" />
                         </div>
                     </div>
 
-                    <div className="col-md-7">
+                    <div className="col-7">
                         <Nav/>
                     </div>
                 </div>

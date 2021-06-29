@@ -1,0 +1,41 @@
+.banner {
+    background-color: $light-pink;
+
+    h6 {
+        color: $red;
+    }
+
+    h1 {
+        font-weight: 800;
+    }
+
+    .left {
+        align-self: center;
+    }
+
+    .read-more {
+        background-color: $dark;
+        color: $white;
+        padding: 10px 15px;
+        border-radius: 10px;
+        text-decoration: none;
+        margin-right: 20px;
+    }
+
+    .watch-video {
+        text-decoration: none;
+        color: $dark;
+
+        i {
+            border: 1px solid $red;
+            border-radius: 100%;
+            color: red;
+            line-height: 36px;
+            height: 36px;
+            width: 36px;
+            display: inline-block;
+            text-align: center;
+            margin-right: 10px;
+        }
+    }
+}

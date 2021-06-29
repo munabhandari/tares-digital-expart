@@ -1,5 +1,23 @@
-header{
-    h1{
-        color: red;
+header {
+    background-color: $light-pink;
+
+    .container {
+        .logo-container {
+                align-self: center;
+        }
+        .navbar-light .navbar-nav .nav-link {
+
+            color: $dark ;
+
+                padding: 10px 15px;
+            &.read-more {
+                background-color: $red;
+                color: $white;
+                border-radius: 10px;
+            }
+        }
+
     }
+
+    
 }
