@@ -1,0 +1,40 @@
+main{
+    section{
+        .brand{
+            .img-container{
+                position: relative;
+                display: flex;
+                justify-content: center; // horizontally
+                align-items: center; // veritically
+                a{
+                    position: absolute;
+                    border-radius: 100%;
+                    background-color: $red;
+                    height: 50px;
+                    width: 50px;
+                    display: inline-block;
+                    text-align: center;
+                    i{
+                        color: $white;
+                        line-height: 50px;
+                    }
+                }
+            }
+
+            .checklist{
+                p{
+                    position: relative;
+                    &:before{
+                        content: '\f14a';
+                        font-family: "Font Awesome 5 Free";
+                        left: -20px;
+                        position: absolute;
+                        color: $dark;
+                        font-weight: 900;
+                    }
+                    
+                }
+            }
+        }
+    }
+}

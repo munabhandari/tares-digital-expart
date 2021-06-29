@@ -1,4 +1,4 @@
-import React from 'react'
+
 import bannerImage from '../images/banner-round.png'
 import bannerCardImage from '../images/banner-card-bg.jpg'
 
