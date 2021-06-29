@@ -38,4 +38,36 @@
             margin-right: 10px;
         }
     }
+
+    .banner-card {
+        padding: 25px;
+        background-color: $white;
+        box-shadow: 0 0 10px rgba($dark, 0.3);
+
+        &:hover {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url('../images/banner-card-bg.jpg');
+
+            a {
+                color: $red;
+                background-color: $white;
+            }
+
+            p {
+                color: $white;
+            }
+        }
+
+        a {
+            background-color: $red;
+            color: $white;
+            padding: 10px 15px;
+            text-decoration: none;
+            display: inline !important;
+        }
+
+        p {
+            margin-top: 40px;
+            font-weight: 800;
+        }
+    }
 }

@@ -1,4 +1,6 @@
+import React from 'react'
 import bannerImage from '../images/banner-round.png'
+import bannerCardImage from '../images/banner-card-bg.jpg'
 
 const Banner = function () {
     return (
@@ -20,10 +22,34 @@ const Banner = function () {
                         <img src={bannerImage} alt="" />
                     </div>
                 </div>
+                <div className="row mt-5">
+                    <div className="col-md-4">
+                        <Card title="Business" />
+                    </div>
+                    <div className="col-md-4">
+                        <Card title="Finance" />
+                    </div>
+                    <div className="col-md-4">
+                        <Card title="Company" />
+                    </div>
+                </div>
             </div>
         </div>
     )
 }
 
+const Card = function (props) {
+    return (
+        <div className="banner-card" style={{backgroundImage: bannerCardImage}}>
+            <a href="">{props.title}</a>
+            <p>
+
+                Website Designing on Your
+                Own is a Great Career
+
+            </p>
+        </div>
+    )
+}
 
 export default Banner;
