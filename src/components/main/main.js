@@ -1,8 +1,12 @@
 import brandImage from '../../images/brand-img.png'
+import Portfolio from './portfolio';
+import Offer from './offer';
 const Main = function () {
     return (
         <div>
             <Brand />
+            <Portfolio/>
+            <Offer/>
         </div>
     )
 }
