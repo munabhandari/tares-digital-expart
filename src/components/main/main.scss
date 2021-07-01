@@ -1,15 +1,17 @@
 @import './portfolio';
 @import './offer';
 @import './expert';
-main{
-    section{
-        .brand{
-            .img-container{
+
+main {
+    section {
+        .brand {
+            .img-container {
                 position: relative;
                 display: flex;
                 justify-content: center; // horizontally
                 align-items: center; // veritically
-                a{
+
+                a {
                     position: absolute;
                     border-radius: 100%;
                     background-color: $red;
@@ -17,17 +19,19 @@ main{
                     width: 50px;
                     display: inline-block;
                     text-align: center;
-                    i{
+
+                    i {
                         color: $white;
                         line-height: 50px;
                     }
                 }
             }
 
-            .checklist{
-                p{
+            .checklist {
+                p {
                     position: relative;
-                    &:before{
+
+                    &:before {
                         content: '\f14a';
                         font-family: "Font Awesome 5 Free";
                         left: -20px;
@@ -35,9 +39,18 @@ main{
                         color: $dark;
                         font-weight: 900;
                     }
-                    
+
                 }
             }
         }
     }
+
+    /* Set the size of the div element that contains the map */
+    #map {
+        height: 400px;
+        /* The height is 400 pixels */
+        width: 100%;
+        /* The width is the width of the web page */
+    }
+
 }

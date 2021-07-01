@@ -2,6 +2,8 @@ import brandImage from '../../images/brand-img.png'
 import Portfolio from './portfolio';
 import Offer from './offer';
 import Expert from './expert';
+import Map from './map';
+
 const Main = function () {
     return (
         <main>
@@ -9,6 +11,7 @@ const Main = function () {
             <Portfolio />
             <Offer />
             <Expert />
+            <Map/>
         </main>
     )
 }
