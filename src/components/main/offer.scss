@@ -1,0 +1,12 @@
+.offer-card {
+    background-color: $white;
+    padding: 25px;
+    background-color: $white;
+    box-shadow: 0 0 10px rgba($dark, 0.3);
+
+    &:hover {
+        i {
+            color: $red;
+        }
+    }
+}
