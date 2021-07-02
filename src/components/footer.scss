@@ -1,19 +1,74 @@
-footer{
-    .footer-top{
+footer {
+
     background-color: $darker-blue;
-    color: $white;
-    .get-in-touch a{
-         color: $red;
-         padding-right: 10px;      
-       }
-       .get-in-touch p{
-           font-size: 13px;
-       }
-       .about-us a{
-           color: $white;
-           text-decoration: none;
-           font-size: 13px;
-       } 
-         
-}
+
+    .footer-top {
+        color: $white;
+
+        .get-in-touch a {
+            color: $red;
+            padding-right: 10px;
+        }
+
+        .get-in-touch p {
+            font-size: 13px;
+        }
+
+        .about-us a {
+            color: $white;
+            text-decoration: none;
+            font-size: 13px;
+        }
+
+        .insta-follow {
+            img {
+                
+                margin: 0.5%;
+            }
+        }
+
+        .newsletter {
+            input {
+                width: 100%;
+                font-size: 10px;
+                padding: 5px 10px;
+            }
+
+            button {
+                width: 100%;
+                background-color: $red;
+                color: $white;
+                border: none;
+                margin-top: 10px;
+                padding-top: 5px;
+            }
+        }
+
+        hr {
+            margin-top: 50px;
+        }
+    }
+
+    .footer-bottom {
+        color: $white;
+
+        a {
+            color: $white;
+            text-decoration: none;
+        }
+        & a:hover{
+            color: $red;
+        }
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+            margin: 0;
+            padding: 0;
+            li {
+                list-style: none;
+                display: inline-block;
+            }
+        }
+    }
 }
