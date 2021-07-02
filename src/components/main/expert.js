@@ -4,7 +4,7 @@ import expertImage3 from '../../images/expert-img3.jpg'
 import expertImage4 from '../../images/expert-img4.jpg'
 const Expert = function () {
     return (
-        <section className="expert py-5">
+        <section className="expert py-5" id="home">
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-md-12 text-center expert-content mt-5">

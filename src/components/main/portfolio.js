@@ -5,7 +5,7 @@ import b4 from '../../images/b4.png';
 
 const Portfolio = function () {
     return (
-        <section className="portfolio py-5">
+        <section className="portfolio py-5" id="projects">
             <div className="container logo-ipsum ">
                 <div className="row logo-container">
                     <div className="col-md-3">

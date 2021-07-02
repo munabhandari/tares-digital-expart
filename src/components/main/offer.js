@@ -1,7 +1,7 @@
 
 const Offer = function () {
     return (
-        <section className="offer py-5">
+        <section className="offer py-5" id="service">
             <div className="container">
                 <div className="row">
                     <div className="col-md-12 text-center offer-content mt-5">

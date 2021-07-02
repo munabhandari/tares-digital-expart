@@ -4,7 +4,7 @@ import bannerCardImage from '../images/banner-card-bg.jpg'
 
 const Banner = function () {
     return (
-        <div className="banner pt-5">
+        <div className="banner pt-5" id="home">
             <div className="container">
                 <div className="row">
                     <div className="col-md-6 left">

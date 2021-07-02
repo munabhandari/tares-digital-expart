@@ -12,19 +12,19 @@
                             <a className="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">About</a>
+                            <a className="nav-link" href="#about">About</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Service</a>
+                            <a className="nav-link" href="#service">Service</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Projects</a>
+                            <a className="nav-link" href="#projects">Projects</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Team</a>
+                            <a className="nav-link" href="#team">Team</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Blog</a>
+                            <a className="nav-link" href="#blog">Blog</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link read-more" href="#">Read More</a>

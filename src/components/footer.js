@@ -7,7 +7,7 @@ import footerImage6 from '../images/instragram-6.png';
 
 const Footer = function () {
     return (
-        <footer className="py-3">
+        <footer className="py-3" id="footer">
             <div className="footer-top">
                 <div className="container">
                     <div className="row pt-5">
