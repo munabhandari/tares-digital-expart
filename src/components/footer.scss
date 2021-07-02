@@ -1,5 +1,19 @@
 footer{
-    .footer-up{
+    .footer-top{
     background-color: $darker-blue;
-    }
+    color: $white;
+    .get-in-touch a{
+         color: $red;
+         padding-right: 10px;      
+       }
+       .get-in-touch p{
+           font-size: 13px;
+       }
+       .about-us a{
+           color: $white;
+           text-decoration: none;
+           font-size: 13px;
+       } 
+         
+}
 }
